@@ -1,0 +1,15 @@
+git@github.com:klen/python-mode.git
+git@github.com:KohPoll/vim-less.git
+git@github.com:altercation/vim-colors-solarized.git
+git@github.com:othree/xml.vim.git
+git@github.com:tpope/vim-fugitive.git
+git@github.com:tpope/vim-ragtag.git
+git@github.com:tpope/vim-surround.git
+git@github.com:MarcWeber/vim-addon-mw-utils.git
+git@github.com:airblade/vim-gitgutter.git
+git@github.com:garbas/vim-snipmate.git
+git@github.com:gfxmonk/vim-stratifiedjs.git
+git@github.com:honza/vim-snippets.git
+git@github.com:mattn/gist-vim
+git@github.com:mattn/webapi-vim
+git@github.com:tomtom/tlib_vim.git

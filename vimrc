@@ -69,4 +69,8 @@ set shiftwidth=2
 set backspace=indent,eol,start
 
 "search for tags files in parent directories
-set tags=tags;/
+set tags=tags;
+
+map ; :
+noremap ;; ; 
+map - :E<cr>
