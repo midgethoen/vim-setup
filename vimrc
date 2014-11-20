@@ -1,4 +1,6 @@
-"
+scriptencoding utf-8
+set encoding=utf-8"
+
 " Midge's .vimrc file
 "
 
@@ -6,8 +8,7 @@
 set foldmethod=syntax
 set foldlevelstart=1
 
-let javaScript_fold=1         " JavaScript
-let sjs_fold=1								" Stratified javascript
+"let javaScript_fold=1         " JavaScript
 
 " pathogen
 execute pathogen#infect()
@@ -57,10 +58,9 @@ set ts=2
 
 " show line/cursorline numbers by default
 set number
-set cursorline
 
 set list
-set listchars=tab:▸\ 
+set listchars=tab:▸\ ,trail:·
 set autoindent
 set expandtab
 set shiftwidth=2
@@ -73,4 +73,8 @@ set tags=tags;
 
 map ; :
 noremap ;; ; 
-map - :E<cr>
+map  - :E<cr>
+
+" show cursorline in insert mode
+au InsertEnter * set cursorline
+au InsertLeave * set nocursorline
