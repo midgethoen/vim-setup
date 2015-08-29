@@ -72,10 +72,33 @@ set backspace=indent,eol,start
 "search for tags files in parent directories
 set tags=tags;
 
-map ; :
-noremap ;; ; 
+" map ; :
+"noremap ;; ; 
 map  - :E<cr>
 
 " show cursorline in insert mode
 au InsertEnter * set cursorline
 au InsertLeave * set nocursorline
+
+" pymode freezes...
+let g:pymode_rope_lookup_project = 0
+let g:pymode_rope_complete_on_dot = 0
+let g:pymode_rope = 0
+
+let g:pymode_lint_ignore = "E501,W" "ignore line too long
+
+syntax enable
+set background=light
+colorscheme solarized
+
+" Unlearning habbits
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
+" move navigational keys to hand resting position
+noremap ; l
+noremap l k
+noremap k j
+noremap j h
