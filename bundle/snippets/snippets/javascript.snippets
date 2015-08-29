@@ -1,0 +1,7 @@
+# express method callback
+snippet ecb
+	function (err, ${1}) {
+		if (err){ return handleError(res, err); }
+		${0}
+	}${2:;}
+
