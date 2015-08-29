@@ -72,7 +72,7 @@ set backspace=indent,eol,start
 "search for tags files in parent directories
 set tags=tags;
 
-" map ; :
+map h :
 "noremap ;; ; 
 map  - :E<cr>
 
