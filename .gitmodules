@@ -70,3 +70,6 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule "bundle/vim-auto-save"]
+	path = bundle/vim-auto-save
+	url = git@github.com:vim-scripts/vim-auto-save.git
