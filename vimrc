@@ -79,7 +79,7 @@ set tags=tags;
 
 map h :
 "noremap ;; ; 
-map  - :E<cr>
+map  - :Ex<cr>
 
 " show cursorline in insert mode
 au InsertEnter * set cursorline
@@ -107,3 +107,15 @@ noremap ; l
 noremap l k
 noremap k j
 noremap j h
+
+
+nmap <Leader>a= :Tabularize /=<CR>
+vmap <Leader>a= :Tabularize /=<CR>
+nmap <Leader>a: :Tabularize /:\zs<CR>
+vmap <Leader>a: :Tabularize /:\zs<CR>
+nmap <Leader>ax :Tabularize /[^ ]*=\zs/r0l0l0<CR>
+vmap <Leader>ax :Tabularize /[^ ]*=\zs/r0l0l0<CR>
+
+" consider js files jsx
+let g:jsx_ext_required = 0
+
