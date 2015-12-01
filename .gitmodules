@@ -73,3 +73,6 @@
 [submodule "bundle/vim-auto-save"]
 	path = bundle/vim-auto-save
 	url = git@github.com:vim-scripts/vim-auto-save.git
+[submodule "bundle/snipmate-mocha"]
+	path = bundle/snipmate-mocha
+	url = git@github.com:mmozuras/snipmate-mocha.git
