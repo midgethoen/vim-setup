@@ -49,15 +49,10 @@ let g:pymode_lint = 1
 " bind Ctrl+<movement> keys to move around the windows, instead of using
 " Ctrl+w + <movement>
 " " Every unnecessary keystroke that can be saved is good for your health :)
-nmap <silent> <C-w>j :wincmd h<CR>
-nmap <silent> <C-w>k :wincmd j<CR>
-nmap <silent> <C-w>l :wincmd k<CR>
-nmap <silent> <C-w>; :wincmd l<CR>
-
-map <silent> ∆ :wincmd h<CR>
-map <silent> ˚ :wincmd j<CR>
-map <silent> ¬ :wincmd k<CR>
-map <silent> … :wincmd l<CR>
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
 
 " small tab indention
 set ts=2
