@@ -72,13 +72,14 @@ set backspace=indent,eol,start
 "search for tags files in parent directories
 set tags=tags;
 
-" map ; :
-"noremap ;; ; 
-map  - :Ex<cr>
+map ; :
+noremap ;; ; 
+map  - :E<cr>
 
 " show cursorline in insert mode
 au InsertEnter * set cursorline
 au InsertLeave * set nocursorline
+<<<<<<< HEAD
 
 " pymode freezes...
 let g:pymode_rope_lookup_project = 0
@@ -115,3 +116,5 @@ vmap <Leader>ax :Tabularize /[^ ]*=\zs/r0l0l0<CR>
 let g:jsx_ext_required = 0
 
 autocmd! BufWritePost *.js JSHint
+=======
+>>>>>>> parent of b9aeb84... Unlearn using the arrow keys, move navigational keys to resting
