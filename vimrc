@@ -119,3 +119,4 @@ vmap <Leader>ax :Tabularize /[^ ]*=\zs/r0l0l0<CR>
 " consider js files jsx
 let g:jsx_ext_required = 0
 
+autocmd! BufWritePost *.js JSHint
