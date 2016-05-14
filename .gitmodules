@@ -79,3 +79,6 @@
 [submodule "bundle/jshint"]
 	path = bundle/jshint
 	url = git@github.com:walm/jshint.vim.git
+[submodule "bundle/cosco"]
+	path = bundle/cosco
+	url = git@github.com:lfilho/cosco.vim.git
